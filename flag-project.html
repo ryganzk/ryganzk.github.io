@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="HTML5 Template Geekfolio Multi-Purpose themeforest">
+    <meta name="description" content="Geekfolio - Multi-Purpose HTML5 Template">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>GDP Calculation From Flag Dataset</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/imgs/ryan-ganzke-favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body class="main-bg">
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <div class="cursor"></div>
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg static main-bg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo icon-img-100" href="#">
+                <img src="assets/imgs/ryan-ganzke-logo.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><span class="rolling-text">Home</span></a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Home</span></a>
+                        <div class="dropdown-menu mega-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="clumn">
+                                            <div class="title">
+                                                <h6 class="sub-title ls1">Home Dark</h6>
+                                            </div>
+                                            <div class="links">
+                                                <a class="dropdown-item" href="home-main.html">Main Home</a>
+                                                <a class="dropdown-item" href="home-corporate.html">Corporate
+                                                    Business</a>
+                                                <a class="dropdown-item" href="home-onepage.html">Home One page</a>
+                                                <a class="dropdown-item" href="home-digital-agency.html">Digital
+                                                    Agency</a>
+                                                <a class="dropdown-item" href="home-freelancer.html">Freelancer</a>
+                                                <a class="dropdown-item" href="home-marketing-agency.html">Marketing
+                                                    Agency</a>
+                                                <a class="dropdown-item" href="home-creative-agency.html">Creative
+                                                    Agency</a>
+                                                <a class="dropdown-item" href="home-startup.html">Startup Bussines</a>
+                                                <a class="dropdown-item" href="home-architecture.html">Architecture</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="clumn">
+                                            <div class="title">
+                                                <h6 class="sub-title ls1">Home Light</h6>
+                                            </div>
+                                            <div class="links">
+                                                <a class="dropdown-item" href="../light/home-main.html">Main Home</a>
+                                                <a class="dropdown-item" href="../light/home-corporate.html">Corporate
+                                                    Business</a>
+                                                <a class="dropdown-item" href="../light/home-onepage.html">Home One page</a>
+                                                <a class="dropdown-item" href="../light/home-digital-agency.html">Digital
+                                                    Agency</a>
+                                                <a class="dropdown-item" href="../light/home-freelancer.html">Freelancer</a>
+                                                <a class="dropdown-item" href="../light/home-marketing-agency.html">Marketing
+                                                    Agency</a>
+                                                <a class="dropdown-item" href="../light/home-creative-agency.html">Creative
+                                                    Agency</a>
+                                                <a class="dropdown-item" href="../light/home-startup.html">Startup Bussines</a>
+                                                <a class="dropdown-item" href="../light/home-architecture.html">Architecture</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="clumn">
+                                            <div class="title">
+                                                <h6 class="sub-title ls1">Showcases</h6>
+                                            </div>
+                                            <div class="links">
+                                                <a class="dropdown-item" href="showcase-parallax-slider.html">Parallax
+                                                    Slider</a>
+                                                <a class="dropdown-item" href="showcase-frame-slider.html">Frame
+                                                    Slider</a>
+                                                <a class="dropdown-item" href="showcase-circle-slider.html">Circle
+                                                    Slider</a>
+                                                <a class="dropdown-item" href="showcase-carousel.html">Showcase
+                                                    Carousel</a>
+                                                <a class="dropdown-item"
+                                                    href="showcase-interactive-center-horizontal.html">Interactive
+                                                    Links1</a>
+                                                <a class="dropdown-item"
+                                                    href="showcase-interactive-center.html">Interactive Links2</a>
+                                                <a class="dropdown-item" href="showcase-parallax.html">Vertical
+                                                    Parallax</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="clumn">
+                                            <div class="title">
+                                                <h6 class="sub-title ls1">Showcases Light</h6>
+                                            </div>
+                                            <div class="links">
+                                                <a class="dropdown-item" href="../light/showcase-parallax-slider.html">Parallax
+                                                    Slider</a>
+                                                <a class="dropdown-item" href="../light/showcase-carousel.html">Showcase
+                                                    Carousel</a>
+                                                <a class="dropdown-item"
+                                                    href="../light/showcase-interactive-center-horizontal.html">Interactive
+                                                    Links1</a>
+                                                <a class="dropdown-item"
+                                                    href="../light/showcase-interactive-center.html">Interactive Links2</a>
+                                                <a class="dropdown-item" href="../light/showcase-parallax.html">Vertical
+                                                    Parallax</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Pages</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="page-about.html">About</a>
+                            <a class="dropdown-item" href="page-services.html">Services</a>
+                            <a class="dropdown-item" href="page-team.html">Our Team</a>
+                            <a class="dropdown-item" href="page-contact.html">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Portfolio</span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="#0">Classic Grid <i class="fas fa-angle-right icon-arrow"></i></a>
+                                    <ul class="dropdown-side">
+                                        <li><a class="dropdown-item" href="portfolio-grid-2.html">Grid 2 Columns</a></li>
+                                        <li><a class="dropdown-item" href="portfolio-grid-3.html">Grid 3 Columns</a></li>
+                                        <li><a class="dropdown-item" href="portfolio-grid-4.html">Grid 4 Columns</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#0">Masonry <i class="fas fa-angle-right icon-arrow"></i></a>
+                                    <ul class="dropdown-side">
+                                        <li><a class="dropdown-item" href="portfolio-masonry-2.html">Masonry 2 Columns</a></li>
+                                        <li><a class="dropdown-item" href="portfolio-masonry-3.html">Masonry 3 Columns</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="portfolio-masonry-4.html">Masonry 4 Columns</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="portfolio-metro.html">Portfolio Metro</a></li>
+                                <li><a class="dropdown-item" href="portfolio-modern.html">Modern Grid</a></li>
+                                <li><a class="dropdown-item" href="project-details1.html">Project Details 1</a></li>
+                                <li><a class="dropdown-item" href="project-details2.html">Project Details 2</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Blogs</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="blog-classic.html">Blog Standerd</a>
+                            <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                            <a class="dropdown-item" href="blog-half-img.html">Image Out Frame</a>
+                            <a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Shop</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="shop-list.html">Shop List</a>
+                            <a class="dropdown-item" href="shop-product.html">Single Product</a>
+                            <a class="dropdown-item" href="shop-cart.html">Cart</a>
+                            <a class="dropdown-item" href="shop-checkout.html">Checkout</a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="full-portfolio.html"><span class="rolling-text">Portfolio</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-page.html"><span class="rolling-text">Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="search-form">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search">
+                    <button><span class="pe-7s-search"></span></button>
+                </div>
+                <div class="search-icon">
+                    <span class="pe-7s-search open-search"></span>
+                    <span class="pe-7s-close close-search"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+
+    <main class="main-bg">
+
+
+        <!-- ==================== Start Slider ==================== -->
+
+        <header class="proj-header1">
+            <div class="container mb-50">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="caption md-mb50">
+                            <h1>GDP Calculation From Flag Dataset</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end align-items-end">
+                        <div class="info row">
+                            <div class="col-sm-6">
+                                <div class="item mb-30">
+                                    <h6 class="fz-16">Category</h6>
+                                    <span class="sub-title ls1">Economics</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="item mb-30">
+                                    <h6 class="fz-16">Customer</h6>
+                                    <span class="sub-title ls1">N/A</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="item mb-30">
+                                    <h6 class="fz-16">Date</h6>
+                                    <span class="sub-title ls1">May 4, 2023</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="item mb-30">
+                                    <h6 class="fz-16">Location</h6>
+                                    <span class="sub-title ls1">Millersville PA, United States</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-img" data-background="assets/imgs/works/flag-data/flag-data.jpg"></div>
+        </header>
+
+        <!-- ==================== End Slider ==================== -->
+
+
+
+        <!-- ==================== Start section ==================== -->
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h2>Introduction</h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">Gross Domestic Product, or GDP, is a widely used metric for determining the economic power a country has. In essence, it is defined as all products and services provided within a country’s borders in a certain year. What this means is that for a good/service to be counted towards a nation’s GDP for the year, it would need to be a finalized product, as well as have been provided within the country, rather than within a different country. As a result, it’s a standard indicator of how productive the nation is within its own economy, without relying on interference from international aspects.</p>
+                        <p class="mb-20">There are four main factors that determine what a country’s GDP will be, with quite often the most important being the consumption of goods and services. This ties in quite nicely with supply and demand, as the more a commodity is valued, the more of it will be produced. Other key components that factor into a nation’s GDP are government spending, business investments, and net exports to other nations.</p>
+                        <p class="mb-20">While these are widely considered the most important aspects to determine GDP, it’s worth noting that these measures are simply related to the nation’s economic effectiveness, which is an incredibly complicated field in itself. Due to this, it’s worth considering whether more general features of a nation, such as its physical or cultural features, have any impact on the nation’s GDP overall.</p>
+                        <p class="mb-50">Therefore, this project will seek out any correlations between more general features of a country, and its overall GDP. In particular, the paper maps the correlations between three different types of features: physical features (landmass, population, etc.), cultural features (language, religion, etc.), and features relating to the country’s flag (colors, shapes, etc.).</p>
+                        <!-- <div class="row">
+                            <div class="col-md-6">
+                                <ul class="rest dot-list">
+                                    <li class="mb-15">Brand Development</li>
+                                    <li class="mb-15">Art Direction</li>
+                                    <li class="mb-15">Marketing Strategy</li>
+                                    <li class="mb-15">Mobile App Design</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="rest dot-list">
+                                    <li class="mb-15">Content Management</li>
+                                    <li class="mb-15">System & Guides</li>
+                                    <li class="mb-15">Graphic Design</li>
+                                    <li class="mb-15">Brand Development</li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="row md-marg mt-50">
+                    <div class="col-lg-4">
+                        <div class="img mb-50">
+                            <img src="assets/imgs/works/projects/1/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="img mb-50">
+                            <img src="assets/imgs/works/projects/1/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="img mb-50">
+                            <img src="assets/imgs/works/projects/1/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="back-image bg-img parallaxie" data-background="assets/imgs/works/projects/1/5.jpg"></div> -->
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h2>Methodology</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <div class="text">
+                            <h3>Dataset & Preprocessing</h3>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <!-- <pre class="r" style="white-space: pre-line;"><code>
+                            # Import and preprocess the data
+                            flagData &lt;- read.csv(&quot;flags.data&quot;)
+                            flagData$GDP &lt;- as.factor(flagData$GDP)
+                            flagData$Mainhue &lt;- as.factor(flagData$Mainhue)
+                            flagData$Topleft &lt;- as.factor(flagData$Topleft)
+                            flagData$Botright &lt;- as.factor(flagData$Botright)
+                            flagData$Language &lt;- as.factor(flagData$Language)
+                            flagData$Religion &lt;- as.factor(flagData$Religion)
+                            set.seed(35)
+                        </code></pre> -->
+                        <p class="mb-20">To begin the scientific process, the flag dataset from the UCI Machine Learning Repository was chosen. This dataset contained complete data on 194 countries as of 1986, each with around 30 features. Each data included information on:</p>
+                        <ul>
+                            <li>
+                                <span class="icon">
+                                    <svg width="3%" height="3%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Name</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="3%" height="3%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Area</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="2.5%" height="2.5%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Population</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="2.5%" height="2.5%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Major Langauge</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="2.5%" height="2.5%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Major Religion</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="2%" height="2%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Number of Prevelant Flag Shapes</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="2%" height="2%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Booleans on Flag Colors</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="2%" height="2%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                    </svg>
+                                    <p class="inline fz-18">Booleans on Flag Shapes</p>
+                                </span>
+                            </li>
+                        </ul>
+                        <p class="mb-20">Asides from the name of the country, each of the remaining data features was given as integer values, including characteristic data like language and religion. How these were handled is thusly: each contained a number between one and nine corresponding with one of the top nine languages/religions in the world. If the feature equaled ten, it meant that the language/religion did not match one of these, and was something else entirely, therefore the number ten represents “other.” Within R, these would be treated as factors rather than integers, due to them technically being qualitative data.</p>
+                        <p class="mb-20">A bulk of the features relate to the country’s flag, as there are many colors and shapes accounted for. Colors used as features include red, green, blue, gold, white, black, and orange, which would either amount to zero if they didn’t exist anywhere on the flag and one if they did. Shapes used as features include bars (rectangles going from top to bottom), stripes (rectangles going from left to right), circles, crosses, saltires, quarters, and sunstars, which were all represented as a number representing how often they occurred. The remaining shapes, those being crescents, triangles, icons, animate images, and text were treated as booleans, similar to how colors are treated above.</p>
+                        
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="item mt-30">
+                                    <div class="o-hidden">
+                                        <div class="img imago wow">
+                                            <img src="assets/imgs/works/flag-data/culturalDataGraph.png" alt="" class="radius-10">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mt-30">
+                                    <div class="o-hidden">
+                                        <div class="img imago wow">
+                                            <img src="assets/imgs/works/flag-data/culturalDataGraph2.png" alt="" class="radius-10">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mt-30">
+                                    <div class="o-hidden">
+                                        <div class="img imago wow">
+                                            <img src="assets/imgs/works/flag-data/flagColorDataGraph.png" alt="" class="radius-10">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-50" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="col-lg-4">
+                                <div class="item mt-30">
+                                    <div class="o-hidden">
+                                        <div class="img imago wow">
+                                            <img src="assets/imgs/works/flag-data/flagShapeDataGraph.png" alt="" class="radius-10">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="mb-20">The only information missing from the dataset is information on each country’s GDP. To account for this, GDP data was researched from this time period, with their corresponding values inserted for each country. GDP data was handled to be treated as factors within R, with each feature equaling an integer from zero to three. If GDP data equaled zero, it meant that the country made less than one billion in GDP over the span of a year. A one meant the country’s GDP was greater than or equal to one billion, and less than ten billion. A two meant the country’s GDP was greater than or equal to ten billion, and less than a hundred billion. Finally, a three meant the country’s GDP was greater than or equal to a hundred billion.</p>
+                        
+                        <div class="mb-50" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="col-lg-4">
+                                <div class="item mt-30">
+                                    <div class="o-hidden">
+                                        <div class="img imago wow">
+                                            <img src="assets/imgs/works/flag-data/gdpDataGraph.png" alt="" class="radius-10">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="mb-50">Unfortunately, thirty-three of the 194 countries did not have any information on their GDP, which was mostly due to a failure to report it. Ultimately these countries were unusable and removed from the dataset entirely.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <div class="text">
+                            <h3>Analysis Methodology</h3>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">Physical data included data relating to a country’s population size and total area. Since these were both quantitative measures, a support vector machine (SVM) was used to determine the correlation between this data and a country’s GDP. This was decided based on the small dataset, as well as the problem being a classification one. The kernel used was a radial one, with a cost of 100, and a gamma of 1.</p>
+                        <p class="mb-20">Cultural data included data relating to a country’s major language and religion. Both of these are treated as qualitative measures, so a decision tree would be the best way to handle this information, as it’s suited to handle non-parametric data to solve a classification problem. Flag data will also be handled by a decision tree, the process being not too dissimilar from how cultural data is handled.</p>
+                        <p class="mb-20">Before beginning the analysis, the working hypothesis is this: physical data will have a heavy impact on a country’s GDP, with a greater value for either meaning a greater chance a country has a high GDP. Cultural data will matter less so, although the probability is higher if the language and religions are part of the top five most predominant languages. Finally, flag data will have almost no impact overall on a country’s GDP, although countries that contain a lot of red, white, and gold will have a higher GDP, as well as if it contains at least three stripes.</p>
+                        <p class="mb-50">For the SVM and decision trees, a training set and test set have been devised, with the training/test split being 70/30.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h2>Results</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h3>Physical Features</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-50" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="col-lg-4">
+                        <div class="item mt-30">
+                            <div class="o-hidden">
+                                <div class="img imago wow">
+                                    <img src="assets/imgs/works/flag-data/physicalFeatureResults.png" alt="" class="radius-10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">The test accuracy boasted a modest 67.%, meaning that the SVM was able to predict the correct GDP group 67.% of the time on the test set. Precision for each category (0, 1, 2, 3) turned out to be 1.0, 0.72, 0.46, and 0.5 respectively. Recall for each category turned out to be 0.78, 0.68, 0.55, and 1.0 respectively. Finally, the F1 for each category turned out to be 0.78, 0.68, 0.55, and 0.67.</p>
+                        <p class="mb-50">Overall, the predictions are pretty standard of what one might expect. It’s also worth mentioning that the SVM had an easier time predicting extreme examples, where the countries are in the under billion or over a hundred billion GDP range, whereas it struggled a bit with those middling values. This is most likely since most of the largest countries in terms of population and area, such as the United States, Russia, and China, are often the wealthiest, and vice versus. With countries in between, there’s more of a gray area, such as the UK being wealthy but having a small area, whereas Switzerland is wealthy but with an incredibly small population. Even still, while the predictions are less impactful than was originally hypothesized, they are still acceptable.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h3>Cultural Features</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-50" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="col-lg-4">
+                        <div class="item mt-30">
+                            <div class="o-hidden">
+                                <div class="img imago wow">
+                                    <img src="assets/imgs/works/flag-data/culturalFeatureResults.png" alt="" class="radius-10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">The test accuracy boasted a rather poor 39.1%. Precision for each category turned out to be 0.22, 0.56, 0.31, and 0.33 respectively. Recall for each category turned out to be 0.33, 0.4, 0.5, and 0.29 respectively. Finally, the F1 for each category turned out to be 0.27, 0.47, 0.38, and 0.31.</p>
+                        <p class="mb-50">Unsurprisingly, the accuracy of cultural features is quite poor. Believe it or not, the tree lumped all predominantly English-speaking countries into the under-one billion GDP group, which is a pretty glaring flaw. Predicted countries over a hundred billion GDP would need to speak either French, German, Arabic, or be an “other,” and not practice Christianity (non-Catholic), Islam, Buddhism, or any Ethnic/Marxist belief. This leaves out a majority of wealthy countries, especially English/Spanish speaking and predominately non-Catholic and Islam nations (United States and Iran, to name a few). For these reasons, the tree had an easier time predicting middling values than extreme ones, although the SVM for physical features was better than the cultural tree for all four types.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h3>Flag's Color Features</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-50" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="col-lg-4">
+                        <div class="item mt-30">
+                            <div class="o-hidden">
+                                <div class="img imago wow">
+                                    <img src="assets/imgs/works/flag-data/colorFeatureResults.png" alt="" class="radius-10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">The test accuracy boasted an extremely poor 30.4%. Precision for each category turned out to be 0.33, 0.44, 0.15, and 0.17 respectively. Recall for each category turned out to be 0.3, 0.36, 0.25, and 0.17 respectively. Finally, the F1 for each category turned out to be 0.32, 0.4, 0.19, and 0.17.</p>
+                        <p class="mb-50">By performing analysis on flag colors, the decision tree made predictions that are only marginally better than random guessing (25%). No category came even close to being right half of the time, therefore it’s safe to assume that there is extremely minimal correlation between a country’s GDP and the colors on the flag. In terms of the hypothesis for flag colors, red and gold both had the inverse effect as predicted, whereas a country would often be predicted as poor by simply having those colors. White didn’t even make it on the decision tree, therefore it’s safe to assume it has no effect on GDP whatsoever.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h3>Flag's Shape Features</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-50" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="col-lg-4">
+                        <div class="item mt-30">
+                            <div class="o-hidden">
+                                <div class="img imago wow">
+                                    <img src="assets/imgs/works/flag-data/shapeFeatureResults.png" alt="" class="radius-10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">The test accuracy boasted a rather poor 32.6%. Precision for each category turned out to be 0.44, 0.5, 0.15, and 0.0 respectively. Recall for each category turned out to be 0.25, 0.43, 0.22, and NaN (not a number/undefined) respectively. Finally, the F1 for each category turned out to be 0.32, 0.46, 0.18, and NaN.</p>
+                        <p class="mb-50">Flag shapes have marginally more correlation than flag colors, but not by much, and it’s not good for predicting GDP either. Unlike the previous SVM and trees, which could predict over a hundred GDP nations, the flag shape tree can not, leaving that category unused. Hence, the recall and F1 statistics returned an undefined number, due to the true positive and false negative rate both being zero. In terms of our original hypothesis, the shape tree determined that countries with under three stripes had a higher chance of being wealthier nations, creating yet another false hypothesis.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text">
+                            <h2>Conclusions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p class="mb-20">In conclusion, none of the metrics used had a strong correlation with a country’s GDP. A country’s population and area have a notable effect for sure, but not as strong as what was hypothesized. The cultural and flag features had very little to do with how wealthy a nation would get, with the cultural feature tree performing ever so slightly better than both flag feature trees. Due to GDP already containing many factors of influence in the economic sphere, it’s safe to assume that outside features would not have much of an influence over it overall.</p>
+                        <p class="mb-50">That being said, there is still a decently strong link between population/area and a country’s GDP, and it is still possible that a correlation can be drawn between the two. Perhaps by examining them individually rather than together, one would be able to realize this connection. Another possibility would be to lower the number of qualifiers used to under 4, in hopes to create more even predictions. Finally, GDP data is skewed more towards the middle, resembling a normal distribution, so the class imbalance can be addressed by using oversampling or undersampling.</p>
+                    </div>
+                </div>
+
+                <!-- <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mt-50">
+                            <h5 class="fw-200">Working collaboratively with brands and agencies worldwide. Designing and developing websites and applications with a focus on interaction, motion and visual experience.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-100">
+                    <div class="col-lg-4">
+                        <div class="img md-mb50">
+                            <img src="assets/imgs/works/projects/1/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1 valign">
+                        <div class="text">
+                            <h5 class="fw-200">Working collaboratively with brands and agencies worldwide. Designing and developing websites and applications with a focus on interaction, motion and visual experience.</h5>
+                            <ul class="rest list-arrow mt-50">
+                                <li>
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">Amazing communication.</h6>
+                                </li>
+                                <li class="mt-10">
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">Best trendinf designing experience.</h6>
+                                </li>
+                                <li class="mt-10">
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">Email &amp; Live chat.</h6>
+                                </li>
+                                <li class="mt-10">
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z" fill="#fff"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">Amazing communication.</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- ==================== End section ==================== -->
+
+
+    </main>
+
+
+
+    <!-- ==================== Start call to action ==================== -->
+
+    <section class="call-action-img">
+        <div class="container">
+            <div class="sec-bg-img bg-img parallaxie" data-background="assets/imgs/works/garment-productivity/garment-productivity.jpg"></div>
+            <div class="sec-lg-head section-padding">
+                <div class="row ontop">
+                    <div class="col-11 d-flex align-items-center">
+                        <div>
+                            <h6 class="sub-title">Next Project</h6>
+                            <h2 class="fz-50 d-rotate wow">
+                                <div class="rotate-text">Garment Industry's Workers Productivity</div>
+                            </h2>
+                        </div>
+                        <div class="ml-auto">
+                            <a href="garment-project.html" class="butn-circle d-flex align-items-center text-center m-auto">
+                                <div class="full-width">
+                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                fill="currentColor"></path>
+                                        </svg></span>
+                                    <span class="full-width">Next Project</span>
+                                </div>
+                                <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End call to action ==================== -->
+
+
+
+    <!-- ==================== Start Footer ==================== -->
+
+    <footer class="pt-80">
+        <div class="container pb-80">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="colum md-mb50">
+                        <div class="tit mb-20">
+                            <h6>Address</h6>
+                        </div>
+                        <div class="text">
+                            <p>Garnet Valley, PA 19060</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="colum md-mb50">
+                        <div class="tit mb-20">
+                            <h6>Say Hello</h6>
+                        </div>
+                        <div class="text">
+                            <p class="mb-10">
+                                <a href="mailto:ryanganzke@gmail.com">ryanganzke@gmail.com</a>
+                            </p>
+                            <h5>
+                                <a href="tel:+16105006436">+1(610)-500-6436</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 md-mb50">
+                    <div class="tit mb-20">
+                        <h6>Social</h6>
+                    </div>
+                    <ul class="rest social-text">
+                        <li>
+                            <a href="https://www.linkedin.com/in/ryan-ganzke/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ryganzk">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ganzkery/">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCn4PM5tpbAj-eVDPnMHbIqw">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="tit mb-20">
+                        <h6>Newsletter</h6>
+                    </div>
+                    <div class="subscribe">
+                        <form action="contact.php">
+                            <div class="form-group rest">
+                                <input type="email" placeholder="Type Your Email">
+                                <button type="submit">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer pt-40 pb-40 bord-thin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="logo">
+                            <a href="#0">
+                                <img src="assets/imgs/ryan-ganzke-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="copyright d-flex">
+                            <div class="ml-auto">
+                                <p class="fz-13">© 2023 Ryan Ganzke - Theme From <span class="underline"><a
+                                            href="https://themeforest.net/user/ui-themez"
+                                            target="_blank">Ui-ThemeZ</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== End Footer ==================== -->
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="assets/js/plugins.js"></script>
+
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+
+    <!-- custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
